@@ -1,323 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Khảo sát nghiên cứu khoa học về hiệu ứng đám đông trong độ tuổi học sinh.">
-  <title>Khảo sát hiệu ứng đám đông | Tâm lý học đường</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dự án nghiên cứu khoa học về hiệu ứng đám đông trong độ tuổi học sinh.">
+  <title>Hiệu ứng đám đông | Tâm lý học đường</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-
-<header class="site-header">
-  <a class="logo" href="#trangchu">TÂM LÝ HỌC ĐƯỜNG</a>
-  <nav>
-    <a href="#gioithieu">Giới thiệu</a>
-    <a href="#nghiencuu">Nghiên cứu</a>
-    <a href="#khaosat">Khảo sát</a>
-    <a href="#giaiphap">Giải pháp</a>
-  </nav>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">T</span><span>TÂM LÝ HỌC ĐƯỜNG<small>DỰ ÁN NGHIÊN CỨU KHOA HỌC</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+  <nav id="navMenu"><a href="#gioithieu">Giới thiệu</a><a href="#nghiencuu">Nghiên cứu</a><a href="#khaosat">Khảo sát</a><a href="#ketqua">Kết quả</a><a href="#giaiphap">Giải pháp</a></nav>
 </header>
 
-<section class="hero" id="trangchu">
-  <div class="hero-content">
-    <span class="hero-label">DỰ ÁN NGHIÊN CỨU KHOA HỌC</span>
-    <h1>Hiệu ứng đám đông<br>trong độ tuổi học sinh</h1>
-    <p>
-      Bạn đang lựa chọn theo suy nghĩ của mình,
-      hay đang bị ảnh hưởng bởi những người xung quanh?
-    </p>
-    <a class="hero-button" href="#khaosat">Tham gia khảo sát <span>→</span></a>
-    <div class="hero-note">
-      <span>◉ Khảo sát ẩn danh</span>
-      <span>◷ Khoảng 3–5 phút</span>
-      <span>▤ 10 câu hỏi</span>
-    </div>
+<main>
+<section class="hero" id="home">
+  <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+  <div class="hero-inner">
+    <span class="eyebrow light">TÂM LÝ HỌC ĐƯỜNG · NGHIÊN CỨU HỌC SINH</span>
+    <h1>Giữa đám đông,<br><em>bạn nghĩ gì?</em></h1>
+    <p>Khám phá cách bạn bè, tập thể và mạng xã hội có thể ảnh hưởng đến suy nghĩ, cảm xúc và lựa chọn của học sinh.</p>
+    <a class="primary-btn" href="#khaosat">Bắt đầu khảo sát <span>→</span></a>
+    <div class="hero-facts"><span>◉ Ẩn danh</span><span>◷ 3–5 phút</span><span>▤ 10 câu hỏi</span></div>
+  </div>
+  <div class="hero-side-note">HIỂU BẢN THÂN&nbsp; / &nbsp;TÔN TRỌNG KHÁC BIỆT</div>
+</section>
+
+<section class="section intro" id="gioithieu">
+  <div class="section-tag">01 / GIỚI THIỆU</div>
+  <div class="section-heading"><h2>Lạc lõng giữa đám đông rất đáng sợ.<br><span>Đánh mất chính mình còn đáng sợ hơn.</span></h2>
+  <p>Hiệu ứng đám đông xuất hiện khi suy nghĩ hoặc hành vi của một người chịu tác động từ nhóm người xung quanh. Ảnh hưởng ấy đôi khi giúp ta hòa nhập, nhưng cũng có thể khiến ta ngại bày tỏ ý kiến riêng.</p></div>
+  <div class="three-cards">
+    <article class="info-card"><span class="card-num">01</span><div class="mini-icon">◌</div><h3>Áp lực bạn bè</h3><p>Lo bị chê cười, tách khỏi nhóm hoặc không được mọi người chấp nhận.</p></article>
+    <article class="info-card"><span class="card-num">02</span><div class="mini-icon">◎</div><h3>Tâm lý số đông</h3><p>Dễ nghĩ rằng ý kiến được nhiều người đồng tình thì chắc chắn đúng.</p></article>
+    <article class="info-card"><span class="card-num">03</span><div class="mini-icon">↗</div><h3>Mạng xã hội</h3><p>Trào lưu, lượt thích và bình luận có thể tác động đến lựa chọn cá nhân.</p></article>
   </div>
 </section>
 
-<main>
+<section class="research-band" id="nghiencuu"><div class="section research">
+  <div class="section-tag">02 / MỤC TIÊU NGHIÊN CỨU</div><h2>Không chỉ hỏi bạn chọn gì,<br><span>mà còn tìm hiểu vì sao.</span></h2>
+  <div class="research-grid">
+    <article><b>A</b><h3>Vấn đề</h3><p>Vì sao một người có suy nghĩ riêng vẫn có thể thay đổi quyết định khi đứng trước số đông?</p></article>
+    <article><b>B</b><h3>Mục tiêu</h3><p>Tìm hiểu trải nghiệm, cảm xúc và những yếu tố có liên quan đến ảnh hưởng của nhóm ở học sinh.</p></article>
+    <article><b>C</b><h3>Ý nghĩa</h3><p>Góp phần xây dựng môi trường học đường biết lắng nghe, tôn trọng khác biệt và khuyến khích tư duy độc lập.</p></article>
+  </div>
+</div></section>
 
-  <section id="gioithieu" class="intro-section content-section">
-    <div class="section-label">01 — GIỚI THIỆU</div>
-    <h2>Vì sao chúng ta dễ bị ảnh hưởng bởi số đông?</h2>
-    <p class="section-lead">
-      Trong môi trường học đường, suy nghĩ và hành vi của học sinh
-      đôi khi chịu ảnh hưởng từ bạn bè, tập thể và mạng xã hội.
-      Điều đó có thể giúp chúng ta hòa nhập, nhưng cũng có thể
-      khiến ta ngại thể hiện ý kiến riêng.
-    </p>
-
-    <div class="feature-grid">
-      <article class="feature-card">
-        <span class="feature-icon">01</span>
-        <h3>Áp lực bạn bè</h3>
-        <p>Lo sợ bị tách biệt, chê cười hoặc không được tập thể chấp nhận.</p>
-      </article>
-      <article class="feature-card">
-        <span class="feature-icon">02</span>
-        <h3>Tâm lý số đông</h3>
-        <p>Cho rằng ý kiến được nhiều người đồng tình chắc chắn là đúng.</p>
-      </article>
-      <article class="feature-card">
-        <span class="feature-icon">03</span>
-        <h3>Mạng xã hội</h3>
-        <p>Dễ bị tác động bởi trào lưu, lượt thích và ý kiến được chia sẻ rộng rãi.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="nghiencuu" class="research-section content-section">
-    <div class="section-label">02 — NGHIÊN CỨU</div>
-    <h2>Lắng nghe suy nghĩ của học sinh</h2>
-    <p class="section-lead">
-      Nghiên cứu hướng đến việc tìm hiểu mức độ ảnh hưởng của số đông
-      đến lựa chọn, cảm xúc và khả năng thể hiện quan điểm cá nhân.
-    </p>
-
-    <div class="research-panel">
-      <div>
-        <span class="panel-number">A</span>
-        <h3>Vấn đề nghiên cứu</h3>
-        <p>Vì sao một người có suy nghĩ riêng vẫn có thể thay đổi quyết định khi đứng trước số đông?</p>
-      </div>
-      <div>
-        <span class="panel-number">B</span>
-        <h3>Mục tiêu</h3>
-        <p>Tìm hiểu những yếu tố liên quan đến áp lực nhóm và tư duy độc lập ở học sinh.</p>
-      </div>
-      <div>
-        <span class="panel-number">C</span>
-        <h3>Ý nghĩa</h3>
-        <p>Góp phần xây dựng môi trường học đường biết tôn trọng sự khác biệt và khuyến khích suy nghĩ độc lập.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="khaosat" class="survey-section">
-    <div class="survey-heading">
-      <span class="survey-eyebrow">RESEARCH • TÂM LÝ HỌC ĐƯỜNG</span>
-      <h2>Khảo sát về hiệu ứng đám đông</h2>
-      <p>
-        Mỗi lựa chọn của bạn giúp chúng tôi hiểu rõ hơn về
-        ảnh hưởng của số đông đối với học sinh.
-      </p>
-      <div class="survey-meta">
-        <span>◷ Khoảng 3–5 phút</span>
-        <span>◉ Ẩn danh</span>
-        <span>▤ 10 câu hỏi</span>
-      </div>
-    </div>
-
-    <div class="survey-layout">
-
-      <aside class="survey-sidebar">
-        <div class="side-label">TIẾN ĐỘ KHẢO SÁT</div>
-        <div class="progress-number">
-          <strong id="progressPercent">0%</strong>
-          <span id="progressCount">0/10 câu</span>
+<section class="survey-section" id="khaosat">
+  <div class="survey-intro"><div class="section-tag">03 / KHẢO SÁT ẨN DANH</div><h2>Mỗi góc nhìn đều<br><span>đáng được lắng nghe.</span></h2><p>Không có câu trả lời nào nhằm đánh giá con người bạn. Hãy chọn phương án gần với trải nghiệm của mình nhất.</p>
+    <div class="pills"><span>◷ 3–5 phút</span><span>◉ Không hỏi tên</span><span>▤ 10 câu hỏi</span></div>
+  </div>
+  <div class="survey-layout">
+    <aside class="survey-sidebar" id="surveySidebar">
+      <div class="sidebar-label">TIẾN ĐỘ CỦA BẠN</div><div class="progress-line"><strong id="progressPercent">0%</strong><span id="progressCount">0/10 câu</span></div>
+      <div class="track"><div id="progressBar"></div></div>
+      <div class="sidebar-label parts-label">CÁC PHẦN KHẢO SÁT</div>
+      <button type="button" class="step active" data-step="0"><span>01</span><span><b>Trải nghiệm</b><small>Câu hỏi 1–3</small></span></button>
+      <button type="button" class="step" data-step="1"><span>02</span><span><b>Ảnh hưởng số đông</b><small>Câu hỏi 4–6</small></span></button>
+      <button type="button" class="step" data-step="2"><span>03</span><span><b>Suy nghĩ độc lập</b><small>Câu hỏi 7–10</small></span></button>
+      <div class="privacy"><span>🔒</span><b>Quyền riêng tư</b><p>Phiên bản này không gửi câu trả lời lên máy chủ. Dữ liệu chỉ được dùng trong phiên khảo sát trên thiết bị hiện tại.</p></div>
+    </aside>
+    <div class="survey-panel">
+      <form id="surveyForm">
+        <div class="question-group" data-group="0">
+          <div class="group-top"><span class="tag">PHẦN 01</span><span>01 — 03</span></div><h3>Trải nghiệm của bạn</h3><p class="group-desc">Những tình huống có thể từng xảy ra trong học tập và cuộc sống.</p>
+          <fieldset class="question-card"><legend><span>01</span> Bạn đã từng thay đổi đáp án chỉ vì đa số bạn bè chọn đáp án khác chưa?</legend>
+            <label class="option"><input type="radio" name="q1" value="Thường xuyên" required><span>Thường xuyên</span></label><label class="option"><input type="radio" name="q1" value="Đôi khi"><span>Đôi khi</span></label><label class="option"><input type="radio" name="q1" value="Hiếm khi"><span>Hiếm khi</span></label><label class="option"><input type="radio" name="q1" value="Chưa từng"><span>Chưa từng</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>02</span> Bạn có từng đồng ý với bạn bè dù trong lòng nghĩ khác không?</legend>
+            <label class="option"><input type="radio" name="q2" value="Rất thường xuyên" required><span>Rất thường xuyên</span></label><label class="option"><input type="radio" name="q2" value="Thỉnh thoảng"><span>Thỉnh thoảng</span></label><label class="option"><input type="radio" name="q2" value="Hiếm khi"><span>Hiếm khi</span></label><label class="option"><input type="radio" name="q2" value="Chưa từng"><span>Chưa từng</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>03</span> Bạn đã từng làm theo một trào lưu vì thấy nhiều người cùng làm chưa?</legend>
+            <label class="option"><input type="radio" name="q3" value="Có, nhiều lần" required><span>Có, nhiều lần</span></label><label class="option"><input type="radio" name="q3" value="Có, một vài lần"><span>Có, một vài lần</span></label><label class="option"><input type="radio" name="q3" value="Chỉ khi thấy phù hợp"><span>Chỉ khi thấy phù hợp</span></label><label class="option"><input type="radio" name="q3" value="Chưa từng"><span>Chưa từng</span></label>
+          </fieldset>
         </div>
-        <div class="progress-track">
-          <div id="progressBar"></div>
+        <div class="question-group" data-group="1" hidden>
+          <div class="group-top"><span class="tag">PHẦN 02</span><span>04 — 06</span></div><h3>Ảnh hưởng từ số đông</h3><p class="group-desc">Cảm xúc và lựa chọn khi ý kiến của bạn khác với mọi người.</p>
+          <fieldset class="question-card"><legend><span>04</span> Khi ý kiến của bạn khác với phần lớn bạn bè, bạn thường cảm thấy thế nào?</legend>
+            <label class="option"><input type="radio" name="q4" value="Tự tin trình bày" required><span>Tự tin trình bày quan điểm</span></label><label class="option"><input type="radio" name="q4" value="Hơi ngại nhưng vẫn nói"><span>Hơi ngại nhưng vẫn muốn nói</span></label><label class="option"><input type="radio" name="q4" value="Lo bị đánh giá"><span>Lo bị đánh giá hoặc chê cười</span></label><label class="option"><input type="radio" name="q4" value="Muốn đồng ý để tránh khác biệt"><span>Muốn đồng ý để tránh khác biệt</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>05</span> Theo bạn, điều gì khiến học sinh dễ làm theo số đông nhất?</legend>
+            <label class="option"><input type="radio" name="q5" value="Sợ bị tách biệt" required><span>Sợ bị tách biệt khỏi nhóm</span></label><label class="option"><input type="radio" name="q5" value="Tin số đông đúng"><span>Tin rằng số đông luôn đúng</span></label><label class="option"><input type="radio" name="q5" value="Thiếu tự tin"><span>Thiếu tự tin vào bản thân</span></label><label class="option"><input type="radio" name="q5" value="Muốn hòa nhập"><span>Muốn hòa nhập với bạn bè</span></label><label class="option"><input type="radio" name="q5" value="Lý do khác/chưa rõ"><span>Lý do khác hoặc chưa rõ</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>06</span> Nếu cả nhóm bạn cùng chê một bạn khác, bạn sẽ làm gì?</legend>
+            <label class="option"><input type="radio" name="q6" value="Hùa theo nhóm" required><span>Hùa theo nhóm</span></label><label class="option"><input type="radio" name="q6" value="Im lặng không tham gia"><span>Im lặng, không tham gia</span></label><label class="option"><input type="radio" name="q6" value="Tìm hiểu sự việc"><span>Tìm hiểu sự việc trước khi nhận xét</span></label><label class="option"><input type="radio" name="q6" value="Lên tiếng bảo vệ bạn"><span>Lên tiếng nếu thấy bạn bị đối xử không công bằng</span></label>
+          </fieldset>
         </div>
-
-        <div class="side-label question-nav-title">CÁC PHẦN</div>
-        <div class="survey-steps">
-          <div class="survey-step active" data-step="0">
-            <span>01</span>
-            <div><b>Trải nghiệm</b><small>Câu 1–3</small></div>
-          </div>
-          <div class="survey-step" data-step="1">
-            <span>02</span>
-            <div><b>Ảnh hưởng số đông</b><small>Câu 4–6</small></div>
-          </div>
-          <div class="survey-step" data-step="2">
-            <span>03</span>
-            <div><b>Suy nghĩ độc lập</b><small>Câu 7–10</small></div>
-          </div>
+        <div class="question-group" data-group="2" hidden>
+          <div class="group-top"><span class="tag">PHẦN 03</span><span>07 — 10</span></div><h3>Suy nghĩ độc lập</h3><p class="group-desc">Cách bạn kiểm chứng thông tin, đưa ra quyết định và góp phần thay đổi môi trường học đường.</p>
+          <fieldset class="question-card"><legend><span>07</span> Khi nhiều người khẳng định một thông tin, bạn có kiểm chứng trước khi tin không?</legend>
+            <label class="option"><input type="radio" name="q7" value="Luôn kiểm chứng" required><span>Luôn kiểm chứng</span></label><label class="option"><input type="radio" name="q7" value="Đôi khi kiểm chứng"><span>Đôi khi</span></label><label class="option"><input type="radio" name="q7" value="Ít khi kiểm chứng"><span>Ít khi</span></label><label class="option"><input type="radio" name="q7" value="Thường tin ngay"><span>Thường tin ngay</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>08</span> Khi đứng trước một quyết định quan trọng, bạn thường dựa vào đâu?</legend>
+            <label class="option"><input type="radio" name="q8" value="Suy nghĩ và bằng chứng" required><span>Suy nghĩ của mình và bằng chứng</span></label><label class="option"><input type="radio" name="q8" value="Ý kiến người đáng tin" ><span>Ý kiến của người đáng tin cậy</span></label><label class="option"><input type="radio" name="q8" value="Lựa chọn của số đông"><span>Lựa chọn của đa số mọi người</span></label><label class="option"><input type="radio" name="q8" value="Tùy tình huống"><span>Tùy tình huống cụ thể</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>09</span> Bạn có cảm thấy được tôn trọng khi đưa ra ý kiến khác biệt trong lớp không?</legend>
+            <label class="option"><input type="radio" name="q9" value="Luôn được tôn trọng" required><span>Luôn được tôn trọng</span></label><label class="option"><input type="radio" name="q9" value="Phần lớn được tôn trọng"><span>Phần lớn là có</span></label><label class="option"><input type="radio" name="q9" value="Không chắc"><span>Không chắc</span></label><label class="option"><input type="radio" name="q9" value="Hiếm khi được tôn trọng"><span>Hiếm khi</span></label>
+          </fieldset>
+          <fieldset class="question-card"><legend><span>10</span> Theo bạn, nhà trường nên làm gì để hạn chế ảnh hưởng tiêu cực của hiệu ứng đám đông?</legend>
+            <label class="option"><input type="radio" name="q10" value="Rèn tư duy phản biện" required><span>Rèn luyện tư duy phản biện</span></label><label class="option"><input type="radio" name="q10" value="Tôn trọng khác biệt"><span>Tạo môi trường tôn trọng sự khác biệt</span></label><label class="option"><input type="radio" name="q10" value="Dạy kỹ năng từ chối"><span>Dạy kỹ năng từ chối áp lực bạn bè</span></label><label class="option"><input type="radio" name="q10" value="Kết hợp nhiều giải pháp"><span>Kết hợp nhiều giải pháp trên</span></label>
+          </fieldset>
         </div>
+        <div id="surveyError" class="error" role="alert" hidden></div>
+        <div class="survey-controls"><button type="button" class="secondary-btn" id="backButton" disabled>← Quay lại</button><button type="button" class="primary-btn small-btn" id="nextButton">Tiếp tục →</button><button type="submit" class="primary-btn small-btn" id="submitButton" hidden>Xem lời khuyên ↗</button></div>
+      </form>
 
-        <div class="survey-privacy">
-          <span>🔒</span>
-          <b>Quyền riêng tư</b>
-          <p>Không hỏi tên hay số điện thoại. Phiên bản hiện tại xử lý câu trả lời trên thiết bị của bạn và chưa gửi dữ liệu về máy chủ.</p>
-        </div>
-      </aside>
-
-      <div class="survey-main">
-        <form id="surveyForm">
-
-          <div class="question-group" data-group="0">
-            <div class="group-heading">
-              <span class="group-chip">PHẦN 01</span>
-              <span class="group-index">01 / 03</span>
-            </div>
-            <h3>Trải nghiệm của bạn</h3>
-            <p class="group-description">Hãy nhớ lại những tình huống thường gặp trong học tập và cuộc sống.</p>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">01</span> Bạn đã từng thay đổi đáp án chỉ vì đa số bạn bè chọn đáp án khác chưa?</legend>
-              <label class="option"><input type="radio" name="q1" value="Thường xuyên" required><span>Thường xuyên</span></label>
-              <label class="option"><input type="radio" name="q1" value="Đôi khi"><span>Đôi khi</span></label>
-              <label class="option"><input type="radio" name="q1" value="Hiếm khi"><span>Hiếm khi</span></label>
-              <label class="option"><input type="radio" name="q1" value="Chưa từng"><span>Chưa từng</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">02</span> Bạn có từng đồng ý với bạn bè dù trong lòng nghĩ khác không?</legend>
-              <label class="option"><input type="radio" name="q2" value="Rất thường xuyên" required><span>Rất thường xuyên</span></label>
-              <label class="option"><input type="radio" name="q2" value="Thỉnh thoảng"><span>Thỉnh thoảng</span></label>
-              <label class="option"><input type="radio" name="q2" value="Hiếm khi"><span>Hiếm khi</span></label>
-              <label class="option"><input type="radio" name="q2" value="Chưa từng"><span>Chưa từng</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">03</span> Bạn đã từng làm theo một trào lưu trên mạng vì thấy nhiều người cùng làm chưa?</legend>
-              <label class="option"><input type="radio" name="q3" value="Có, nhiều lần" required><span>Có, nhiều lần</span></label>
-              <label class="option"><input type="radio" name="q3" value="Có, một vài lần"><span>Có, một vài lần</span></label>
-              <label class="option"><input type="radio" name="q3" value="Chỉ khi thấy phù hợp"><span>Chỉ khi thấy phù hợp</span></label>
-              <label class="option"><input type="radio" name="q3" value="Chưa từng"><span>Chưa từng</span></label>
-            </fieldset>
-          </div>
-
-          <div class="question-group" data-group="1" hidden>
-            <div class="group-heading">
-              <span class="group-chip">PHẦN 02</span>
-              <span class="group-index">02 / 03</span>
-            </div>
-            <h3>Ảnh hưởng từ số đông</h3>
-            <p class="group-description">Tìm hiểu cảm xúc và lựa chọn khi bạn có ý kiến khác với mọi người.</p>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">04</span> Khi ý kiến của bạn khác với phần lớn bạn bè, bạn thường cảm thấy thế nào?</legend>
-              <label class="option"><input type="radio" name="q4" value="Tự tin" required><span>Tự tin trình bày quan điểm</span></label>
-              <label class="option"><input type="radio" name="q4" value="Hơi ngại"><span>Hơi ngại nhưng vẫn muốn nói</span></label>
-              <label class="option"><input type="radio" name="q4" value="Lo bị đánh giá"><span>Lo bị đánh giá hoặc chê cười</span></label>
-              <label class="option"><input type="radio" name="q4" value="Muốn đồng ý"><span>Muốn đồng ý để tránh khác biệt</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">05</span> Theo bạn, điều gì khiến học sinh dễ làm theo số đông nhất?</legend>
-              <label class="option"><input type="radio" name="q5" value="Sợ bị tách biệt" required><span>Sợ bị tách biệt khỏi nhóm</span></label>
-              <label class="option"><input type="radio" name="q5" value="Tin số đông đúng"><span>Tin rằng số đông luôn đúng</span></label>
-              <label class="option"><input type="radio" name="q5" value="Thiếu tự tin"><span>Thiếu tự tin vào bản thân</span></label>
-              <label class="option"><input type="radio" name="q5" value="Muốn hòa nhập"><span>Muốn hòa nhập với bạn bè</span></label>
-              <label class="option"><input type="radio" name="q5" value="Lý do khác"><span>Lý do khác hoặc chưa rõ</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">06</span> Nếu cả nhóm bạn cùng chê một bạn khác, bạn sẽ làm gì?</legend>
-              <label class="option"><input type="radio" name="q6" value="Hùa theo" required><span>Hùa theo nhóm</span></label>
-              <label class="option"><input type="radio" name="q6" value="Im lặng"><span>Im lặng, không tham gia</span></label>
-              <label class="option"><input type="radio" name="q6" value="Tìm hiểu"><span>Tìm hiểu sự việc trước khi nhận xét</span></label>
-              <label class="option"><input type="radio" name="q6" value="Bảo vệ bạn"><span>Lên tiếng nếu thấy bạn bị đối xử không công bằng</span></label>
-            </fieldset>
-          </div>
-
-          <div class="question-group" data-group="2" hidden>
-            <div class="group-heading">
-              <span class="group-chip">PHẦN 03</span>
-              <span class="group-index">03 / 03</span>
-            </div>
-            <h3>Rèn luyện tư duy độc lập</h3>
-            <p class="group-description">Khám phá cách bạn cân nhắc thông tin và đưa ra quyết định.</p>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">07</span> Khi nghe nhiều người khẳng định một thông tin, bạn có kiểm chứng trước khi tin không?</legend>
-              <label class="option"><input type="radio" name="q7" value="Luôn kiểm chứng" required><span>Luôn kiểm chứng</span></label>
-              <label class="option"><input type="radio" name="q7" value="Đôi khi"><span>Đôi khi</span></label>
-              <label class="option"><input type="radio" name="q7" value="Ít khi"><span>Ít khi</span></label>
-              <label class="option"><input type="radio" name="q7" value="Tin ngay"><span>Thường tin ngay</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">08</span> Khi đứng trước một quyết định quan trọng, bạn thường dựa vào đâu?</legend>
-              <label class="option"><input type="radio" name="q8" value="Suy nghĩ và bằng chứng" required><span>Suy nghĩ của mình và bằng chứng</span></label>
-              <label class="option"><input type="radio" name="q8" value="Ý kiến người đáng tin"><span>Ý kiến của người đáng tin cậy</span></label>
-              <label class="option"><input type="radio" name="q8" value="Số đông"><span>Lựa chọn của đa số mọi người</span></label>
-              <label class="option"><input type="radio" name="q8" value="Tùy tình huống"><span>Tùy tình huống cụ thể</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">09</span> Bạn có cảm thấy mình được tôn trọng khi đưa ra ý kiến khác biệt trong lớp không?</legend>
-              <label class="option"><input type="radio" name="q9" value="Luôn được tôn trọng" required><span>Luôn được tôn trọng</span></label>
-              <label class="option"><input type="radio" name="q9" value="Phần lớn"><span>Phần lớn là có</span></label>
-              <label class="option"><input type="radio" name="q9" value="Không chắc"><span>Không chắc</span></label>
-              <label class="option"><input type="radio" name="q9" value="Hiếm khi"><span>Hiếm khi</span></label>
-            </fieldset>
-
-            <fieldset class="question-card">
-              <legend><span class="q-number">10</span> Theo bạn, nhà trường nên làm gì để hạn chế ảnh hưởng tiêu cực của hiệu ứng đám đông?</legend>
-              <label class="option"><input type="radio" name="q10" value="Rèn tư duy phản biện" required><span>Rèn luyện tư duy phản biện</span></label>
-              <label class="option"><input type="radio" name="q10" value="Tôn trọng khác biệt"><span>Tạo môi trường tôn trọng sự khác biệt</span></label>
-              <label class="option"><input type="radio" name="q10" value="Dạy kỹ năng từ chối"><span>Dạy kỹ năng từ chối áp lực bạn bè</span></label>
-              <label class="option"><input type="radio" name="q10" value="Kết hợp nhiều giải pháp"><span>Kết hợp nhiều giải pháp trên</span></label>
-            </fieldset>
-          </div>
-
-          <div class="survey-error" id="surveyError" role="alert" hidden></div>
-
-          <div class="survey-controls">
-            <button class="back-button" type="button" id="backButton" disabled>← Quay lại</button>
-            <button class="next-button" type="button" id="nextButton">Tiếp tục →</button>
-            <button class="next-button" type="submit" id="submitButton" hidden>Gửi khảo sát ✓</button>
-          </div>
-        </form>
-
-        <div class="survey-complete" id="surveyComplete" hidden>
-          <div class="complete-icon">✓</div>
-          <span class="group-chip">HOÀN THÀNH</span>
-          <h3>Cảm ơn bạn đã chia sẻ!</h3>
-          <p>Bạn đã hoàn thành 10 câu hỏi. Dưới đây là phần tóm tắt câu trả lời của bạn trên thiết bị này.</p>
-          <div id="personalSummary"></div>
-          <button type="button" class="next-button" id="restartButton">Làm lại khảo sát ↻</button>
-          <p class="local-note">Đây chỉ là tóm tắt câu trả lời cá nhân, không phải thống kê của toàn bộ người tham gia.</p>
-        </div>
-      </div>
+      <section id="resultPanel" class="result-panel" hidden aria-live="polite">
+        <div class="success-mark">✓</div><span class="tag">HOÀN THÀNH KHẢO SÁT</span>
+        <h3 id="resultTitle">Cảm ơn bạn đã chia sẻ!</h3><p id="resultIntro"></p>
+        <div class="result-summary"><h4>📝 Tóm tắt câu trả lời của bạn</h4><p class="muted">Đây là bản tóm tắt cá nhân, không phải kết quả thống kê của tất cả người tham gia.</p><div id="answerSummary"></div></div>
+        <div class="advice-card"><span class="advice-symbol">✦</span><div><h4>Lời khuyên dành cho bạn</h4><p id="adviceText"></p></div></div>
+        <div class="four-views"><h4>4 góc nhìn — 1 đáp án</h4><div><b>01 · Nhìn thẳng vào bản thân</b><p>Mình thực sự nghĩ gì và cảm thấy thế nào?</p></div><div><b>02 · Nhìn trái vào số đông</b><p>Mọi người đang nghĩ gì? Có phải mình đang chịu áp lực không?</p></div><div><b>03 · Nhìn phải vào thực tế</b><p>Bằng chứng và sự thật có ủng hộ lựa chọn đó không?</p></div><div><b>04 · Nhìn lên câu trả lời của mình</b><p>Mình có đủ lý do để đưa ra quyết định này không?</p></div></div>
+        <p class="closing-note">Bạn không cần phản đối số đông để chứng minh bản thân. Điều quan trọng là biết lắng nghe, suy xét và lựa chọn có trách nhiệm. 💜</p>
+        <button type="button" class="primary-btn restart-btn" id="restartButton">Làm lại khảo sát ↻</button>
+      </section>
     </div>
-  </section>
+  </div>
+  <p class="survey-disclaimer">Khảo sát phục vụ mục đích tìm hiểu tâm lý học đường, không phải công cụ chẩn đoán hay đánh giá một cá nhân.</p>
+</section>
 
-  <section id="giaiphap" class="solution-section content-section">
-    <div class="section-label">03 — GIẢI PHÁP</div>
-    <h2>Bốn góc nhìn — Một đáp án</h2>
-    <p class="section-lead">
-      Trước khi đưa ra quyết định, hãy dừng lại một chút
-      để nhìn nhận vấn đề từ nhiều phía.
-    </p>
-
-    <div class="feature-grid solution-grid">
-      <article class="feature-card">
-        <span class="feature-icon">01</span>
-        <h3>Nhìn thẳng</h3>
-        <p>Mình thực sự nghĩ gì và cảm thấy thế nào?</p>
-      </article>
-      <article class="feature-card">
-        <span class="feature-icon">02</span>
-        <h3>Nhìn trái</h3>
-        <p>Số đông đang nghĩ gì? Vì sao họ lựa chọn như vậy?</p>
-      </article>
-      <article class="feature-card">
-        <span class="feature-icon">03</span>
-        <h3>Nhìn phải</h3>
-        <p>Bằng chứng và thực tế có ủng hộ lựa chọn đó không?</p>
-      </article>
-      <article class="feature-card">
-        <span class="feature-icon">04</span>
-        <h3>Nhìn lên</h3>
-        <p>Mình có đủ lý do để bảo vệ câu trả lời của bản thân không?</p>
-      </article>
-    </div>
-  </section>
-
+<section class="section solution" id="giaiphap">
+  <div class="section-tag">04 / GIẢI PHÁP THỰC HÀNH</div><h2>Dừng lại một chút.<br><span>Chọn lựa bằng suy nghĩ của mình.</span></h2><p class="section-copy">Khi cảm thấy bị ảnh hưởng bởi số đông, bạn có thể thử những bước nhỏ sau.</p>
+  <div class="solution-grid">
+    <article><span>01</span><h3>Chậm lại</h3><p>Đừng vội đồng ý chỉ vì mọi người cùng chọn một phương án.</p></article>
+    <article><span>02</span><h3>Kiểm chứng</h3><p>Tìm thông tin đáng tin cậy và cân nhắc bằng chứng trước khi tin.</p></article>
+    <article><span>03</span><h3>Lên tiếng an toàn</h3><p>Trình bày ý kiến bình tĩnh; tìm người lớn đáng tin khi có áp lực hoặc bắt nạt.</p></article>
+    <article><span>04</span><h3>Tôn trọng khác biệt</h3><p>Lắng nghe người khác mà không ép họ phải nghĩ giống mình.</p></article>
+  </div>
+</section>
 </main>
-
-<footer class="site-footer">
-  <p>DỰ ÁN NGHIÊN CỨU KHOA HỌC HỌC SINH</p>
-  <p>Hiểu bản thân · Tôn trọng khác biệt · Suy nghĩ độc lập</p>
-  <small>Khảo sát phục vụ mục đích nghiên cứu và tìm hiểu tâm lý học đường.</small>
+<footer><b>TÂM LÝ HỌC ĐƯỜNG</b><p>Hiểu bản thân · Tôn trọng khác biệt · Suy nghĩ độc lập</p><small>Dự án nghiên cứu khoa học học sinh</small>
+<p class="author-credit">Người thực hiện website: Nguyễn Đôn Khôi Nguyên</p>
 </footer>
-
 </body>
 </html>
